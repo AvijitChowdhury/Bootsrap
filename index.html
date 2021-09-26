@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootsrap</title>
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+  <!-- /*if we want to use bootsrap with out interner*/ -->
+   <link rel="stylesheet" href="css/bootstrap-5.1.1-dist/css/bootstrap.min.css"> 
+   <style>
+       img{
+           width:200px;
+       }
+   </style>
+
+</head>
+<body>
+    <h2>hello bootstrap</h2>
+    <h1>buttons</h1>
+    <button class="btn btn-primary" type="submit">Button</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-warning">Success</button>
+    <button type="button" class="btn btn-outline-danger">Success</button>
+
+    <h1>colors</h1>
+    <p class="text-info bg-dark">Avijit is a good programmer</p>
+    <p class="text-success">.text-success</p>
+
+    <div class="p-3 mb-2 bg-warning text-dark">
+        <h1>text dark</h1>
+        <p>joss colors</p>
+
+    </div>
+    <div class="p-3 mb-2 bg-info text-dark">
+        <h1>text dark</h1>
+        <p>joss colors</p>
+
+    </div>
+    <img class="img-fluid w-50 rounded-circle img-thumbnail" src="images/IMG_20210605_152340.jpg" alt="">
+
+<section style="margin-bottom:10px;">
+    <div  class="card" style="width: 18rem;">
+        <img src="images/IMG_20210605_152340.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </section>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="images/IMG_20210605_152340.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/IMG_20210605_152340.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/IMG_20210605_152340.jpg"." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+
+      <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Fixed top</a>
+            </div>
+          </nav>
+      </nav>
+      
+      <nav class="navbar navbar-dark bg-primary">
+        <!-- Navbar content -->
+      </nav>
+      
+      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <!-- Navbar content -->
+      </nav>
+
+      <!-- fixed top navbar -->
+<nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+ <!-- container class and grid-->
+<h1>Grid</h1>
+<div class="container">
+    <div class="row">
+        
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2  col-xxl-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, laudantium, itaque rem vitae porro cupiditate atque voluptas velit error fugiat, et aliquam recusandae minus praesentium consequatur. Doloribus enim eius est quae deserunt id facere natus repudiandae quaerat. Dolores corrupti totam, est harum ut recusandae dolorem commodi illum pariatur sint nulla fuga perspiciatis culpa et vitae fugit ipsum officia beatae iste dignissimos nam, veniam neque, aliquam reiciendis. Repudiandae praesentium, nostrum asperiores placeat rem nemo assumenda cumque iusto neque itaque, exercitationem corrupti, eos provident deserunt! Repellendus esse delectus doloribus, dolor obcaecati eos deleniti soluta odit dolore quos dolorem consequuntur animi est tempore ipsam commodi, accusamus autem mollitia. Veritatis qui assumenda voluptatem eius autem porro modi, magni et nihil corporis illum necessitatibus excepturi!</div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2  col-xxl-1">Rerum dolorum, cumque aliquam atque, dolorem eius mollitia distinctio excepturi, ex temporibus fugit magnam provident totam nemo quia dicta. Ut optio at, repellat fugit asperiores, a consequatur quos quaerat sint reprehenderit dignissimos dolorem nobis suscipit consectetur eligendi. Architecto quod repudiandae atque ipsum! Impedit ratione voluptates quis corrupti, dolore dolor unde, ullam numquam necessitatibus reprehenderit quia eum consectetur quasi obcaecati id quo ipsum aliquam expedita, adipisci vitae praesentium rerum exercitationem. Sed distinctio at cupiditate adipisci molestiae expedita itaque perferendis, minima eum assumenda libero. Voluptatem officiis beatae quas perspiciatis reprehenderit maxime accusamus asperiores, earum, maiores aliquid perferendis quos. Deleniti dignissimos accusamus et quibusdam incidunt in voluptatum tempora tempore aspernatur magni voluptatibus iste possimus, cum dolor nemo eius, itaque quod autem error? Minus.</div>
+          <div class="col-3">Deserunt, commodi. Asperiores aliquid ea fugit non exercitationem? Eligendi fugit ea, amet officia iusto reiciendis aspernatur veritatis illum odio! Eligendi fugiat accusamus porro illo laboriosam consequatur temporibus earum et quaerat. Iure, sint est neque unde molestias voluptates laborum corporis modi architecto harum aperiam tenetur molestiae totam eaque aliquam doloremque similique at, dolorem ipsa quia magni. Vitae molestias aut sequi quidem perspiciatis maiores veniam culpa aliquid, accusamus recusandae natus ad tenetur delectus rem est corrupti facilis blanditiis iure? Ipsa, sed harum fugit exercitationem possimus quisquam tempora in qui impedit rerum, sunt magnam alias dolorum officiis deserunt, nihil laboriosam iusto! Vitae libero nobis alias cupiditate in fugiat adipisci reiciendis beatae provident, doloremque minus consequatur esse numquam nesciunt? Dignissimos corrupti ad numquam necessitatibus?</div>
+          <div class="col-3">Est minima placeat id dignissimos unde impedit explicabo ducimus deserunt aspernatur perspiciatis, quis vitae nesciunt tenetur atque vero provident consectetur minus labore repudiandae dolore nostrum, eligendi sed corrupti quasi? Sunt esse et sapiente, ut ab quos tempora, vel consectetur officiis aut deserunt atque beatae debitis iusto. Ullam natus alias quo amet ad soluta, a, possimus magni, inventore consectetur corrupti eveniet id esse mollitia eius voluptatum repudiandae laboriosam at animi. Et officia, quod, neque sint quas voluptates aut laboriosam temporibus vitae blanditiis aliquam, sequi amet nisi mollitia placeat omnis. Molestias a velit saepe dolores quia neque asperiores, nesciunt quas ducimus ad, veritatis modi qui repudiandae aut possimus dolorem pariatur deserunt ab quo illo soluta eaque, necessitatibus quisquam iure? Provident, voluptates quaerat!</div>
+    </div>
+</div>
+
+<!-- carosol -->
+<div class=" container w-25">
+    <h1>carosol</h1>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/download.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/download (2).jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/images (1).jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+  <!-- flex -->
+
+<div class="container">
+    <h1>flex layout</h1>
+    <div class="d-flex flex-lg-row flex-sm-column  flex-md-row-reverse bd-highlight align-items-center"">
+        <div class="sabanoor">sabnoor</div>
+        <div>sahana</div>
+        <div>nipoon</div>
+    </div>
+
+    <div class="d-flex flex-column bd-highlight mb-3">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+      </div>
+      <div class="d-flex flex-column-reverse bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+      </div>
+
+      <div class="d-flex justify-content-start">mim</div>
+<div class="d-flex justify-content-end">toya</div>
+<div class="d-flex justify-content-center">mehjabin</div>
+<div class="d-flex justify-content-between">tisha</div>
+<div class="d-flex justify-content-around">sokh</div>
+<div class="d-flex justify-content-evenly">nadia</div>
+</div>
+
+<!-- javascript code for implementing bootsrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
